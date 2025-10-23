@@ -17,8 +17,8 @@ def save_text(filename, text_to_save):
             # 保存日時も一緒に追加する
             timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-            f.write(f"[{timestamp}] {text_to_save}\n") # 改行も追加
+            f.write(f"[{timestamp}] {text_to_save}\n") 
 
-        print(f"{filename} に追記しました。")
+        print(f"{filename} に追記しました。") 
     except Exception as e:
         print(f"ファイル保存中にエラーが発生しました: {e}")
