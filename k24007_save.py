@@ -28,3 +28,8 @@ def save_text_new_file(text_to_save, basename="transcript"):
         
     except Exception as e:
         print(f"ファイル保存中にエラーが発生しました: {e}")
+        
+        
+if __name__ == '__main__':
+    sample_text = "これはテストの文字起こし結果です。"
+    save_text_new_file(sample_text)

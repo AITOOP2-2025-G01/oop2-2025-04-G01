@@ -69,3 +69,9 @@ def record_audio(duration: int = 10,
     except Exception as e:
         print(f"❌ Unexpected Error: {e}")
         raise
+    
+    
+if __name__ == '__main__':
+    # 10秒間録音してテスト
+    recorded_file = record_audio(duration = 10)
+    print("Recorded audio file:", recorded_file)
