@@ -16,6 +16,7 @@
 - tiktoken
 - huggingface_hub
 - scipy
+- SpeechRecognition
 
 ## 実行手順
 1. コードを実行し、録音し始める。
